@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		converteReal()
+	}
+	 funcao converteReal(){
+	 	inteiro Real = 1
+	 	real euro = 5.25 
+	 	real dolar = 4.85
+	 	inteiro opcao = 1
+	 	inteiro opcao2 = 2
+
+	 	escreva("")
+
+	 	se(opcao == 1){
+	 		escreva("A cotação para o Dolar é: ", dolar * Real)	 		
+	 	}
+	 	senao se(opcao == 2){
+	 		escreva("A cotação para o Euro é: ", euro * Real)
+	 		
+	 	}
+	 }
+}

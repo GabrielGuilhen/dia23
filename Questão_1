@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	   valor()
+	   
+	}
+		funcao valor(){
+
+			inteiro valor1
+			inteiro valor2
+			inteiro valor3
+			inteiro soma
+			
+			escreva("Me diga o 1° valor \n")
+			leia(valor1)
+			escreva("Me diga o 2° valor \n")
+			leia(valor2)
+			escreva("Me diga o 3° valor \n")
+			leia(valor3)
+
+			soma = valor1 + valor2 + valor3
+
+			escreva("A soma dos Três valores são: ", soma) 
+		}
+	
+}
